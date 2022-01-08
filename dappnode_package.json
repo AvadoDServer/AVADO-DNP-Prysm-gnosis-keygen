@@ -8,8 +8,8 @@
   "autoupdate": true,
   "image": {
     "path": "eth2keygengnosis.avado.dnp.dappnode.eth_0.0.1.tar.xz",
-    "hash": "/ipfs/QmRPH1bYCPDUJzhjZ1RqG9sMSRjW1p4sSSWdx9hFhDdLwe",
-    "size": 179551388,
+    "hash": "/ipfs/QmTTh4oqSM52U3pESktAhJvQWp4EBcwAGsaebN8PjaSpaH",
+    "size": 178145624,
     "restart": "always",
     "volumes": [
       "data:/var/validator_keys",
@@ -28,5 +28,5 @@
       "external": true
     }
   },
-  "builddate": "2022-01-07T23:50:04.760Z"
+  "builddate": "2022-01-08T00:23:26.810Z"
 }
