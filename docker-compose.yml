@@ -1,0 +1,15 @@
+version: '3.4'
+services:
+  eth2keygengnosis.avado.dnp.dappnode.eth:
+    image: 'eth2keygengnosis.avado.dnp.dappnode.eth:0.0.1'
+    build: ./build
+    environment:
+      - EXTRA_OPTS=
+    volumes:
+      - 'data:/var/validator_keys'
+      - '/var/run/docker.sock:/var/run/docker.sock'
+    ports:
+      - '80:80'
+      - '82:82'
+volumes:
+  data: {}
